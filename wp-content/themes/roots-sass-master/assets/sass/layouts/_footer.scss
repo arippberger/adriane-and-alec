@@ -1,0 +1,26 @@
+.content-info {
+	margin-top: 40px;
+	min-height: 100px;
+	//background: $brown url(../img/footer-bg.png) left bottom repeat;
+
+	
+	.container {
+		background-image: url('../img/border-x.png');
+		background-position: left top;
+		background-repeat: repeat-x;
+		background-size: 93px 22px;
+	}
+
+	.static-footer {
+
+		text-align: center;
+		margin-top: 35px;
+		padding-left: 0;
+		padding-right: 0;
+
+		h3 {
+			margin-top: 10px;
+		}
+	
+	}
+}

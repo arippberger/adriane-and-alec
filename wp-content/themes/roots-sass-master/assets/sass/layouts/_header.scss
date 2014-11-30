@@ -1,0 +1,80 @@
+.banner {
+	
+}
+
+.navbar-default {
+	background-color: transparent;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+.navbar-brand {
+
+	background: transparent url('../img/adriane-alec-mark.png') left top no-repeat;
+	height: 132px;
+	width: 276px;
+	background-size: 276px 132px;
+	text-indent: -9999em;
+	margin-top: 15px;
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+
+	@media (min-width: $grid-float-breakpoint) {
+		.navbar > .container &,
+		.navbar > .container-fluid & {
+	  		margin-left: auto;
+		}
+  	}
+}
+
+.navbar-nav {
+
+	font-family: $amatic;
+	font-size: 28px;
+	padding-top: 10px;
+	float: none;
+	clear: both;
+	text-align: center;
+	
+}
+
+.page-header {
+	border-bottom: 1px solid $gray-blue;
+
+	h1 {
+		text-align: center;
+	}
+}
+
+.navbar-toggle {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.container>.navbar-header {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media (min-width: $screen-sm-min) {
+
+	.navbar-toggle {
+		display: none;
+	}
+
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.navbar-nav>li {
+		float: none;
+		display: inline-block;
+	}
+}

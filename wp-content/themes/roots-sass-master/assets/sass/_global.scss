@@ -48,6 +48,10 @@ tr {
 		h2 {
 			margin-top: 0;
 		}
+
+		&>h3:first-child {
+			margin-top: 0;
+		}
 	}
 }
 

@@ -20,3 +20,9 @@ function roots_wp_title($title) {
   return $title;
 }
 add_filter('wp_title', 'roots_wp_title', 10);
+
+add_action('wp_head', 'aa_favicion');
+function aa_favicon(){ ?>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon"><?php
+}

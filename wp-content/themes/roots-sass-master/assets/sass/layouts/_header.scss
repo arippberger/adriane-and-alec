@@ -44,7 +44,8 @@
 }
 
 .page-header {
-	border-bottom: 1px solid $gray-blue;
+	background: url('../img/border-top.png') left bottom repeat-x;
+	border-bottom: none;
 
 	h1 {
 		text-align: center;

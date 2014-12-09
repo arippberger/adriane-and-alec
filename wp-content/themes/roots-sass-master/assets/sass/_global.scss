@@ -63,6 +63,22 @@ tr {
 	}
 }
 
+@media (max-width: $screen-lg) {
+
+	.intro-image {
+		margin-left: -100px;
+		margin-right: -100px;
+	}
+}
+
+@media (max-width: $screen-md) {
+
+	.intro-image {
+		margin-left: -200px;
+		margin-right: -200px;
+	}
+}
+
 @media (max-width: $screen-sm) {
 	
 	tr {
@@ -76,5 +92,10 @@ tr {
 				margin-top: 20px;
 			}
 		}
+	}
+
+	.intro-image {
+		margin-left: -150px;
+		margin-right: -150px;
 	}
 }

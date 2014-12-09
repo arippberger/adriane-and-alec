@@ -55,6 +55,14 @@ tr {
 	}
 }
 
+.wedding-party {
+
+	td:nth-child(2n) {
+		padding: 10px;
+		padding-top: 0;
+	}
+}
+
 @media (max-width: $screen-sm) {
 	
 	tr {

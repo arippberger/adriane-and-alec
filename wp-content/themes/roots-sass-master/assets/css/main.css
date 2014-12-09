@@ -6877,6 +6877,11 @@ tr td > h3:first-child {
   margin-top: 0;
 }
 
+.wedding-party td:nth-child(2n) {
+  padding: 10px;
+  padding-top: 0;
+}
+
 @media (max-width: 768px) {
   tr td {
     padding-bottom: 0;

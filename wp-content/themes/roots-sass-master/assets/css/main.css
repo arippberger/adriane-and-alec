@@ -6893,6 +6893,10 @@ tr td > h3:first-child {
     margin-left: -200px;
     margin-right: -200px;
   }
+
+  .page-id-14 table img {
+    max-width: 77px;
+  }
 }
 @media (max-width: 768px) {
   tr td {

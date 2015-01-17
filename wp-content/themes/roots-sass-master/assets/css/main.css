@@ -6896,6 +6896,7 @@ tr td > h3:first-child {
 
   .wedding-party img {
     max-width: 77px;
+    width: 77px;
   }
 }
 @media (max-width: 768px) {

@@ -16,6 +16,12 @@
 				max-width: 77px!important;
 				width: 77px!important;
 			}
+			@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+			   	.wedding-party img {
+					max-width: 77px!important;
+					width: 77px!important;
+				}
+			}			
 		</style>
 	<![endif]-->
 </head>

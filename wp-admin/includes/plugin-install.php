@@ -71,7 +71,7 @@ function plugins_api($action, $args = null) {
 			$url = set_url_scheme( $url, 'https' );
 
 		$args = array(
-			'timeout' => 15,
+			'timeout' => 60,
 			'body' => array(
 				'action' => $action,
 				'request' => serialize( $args )

@@ -6882,6 +6882,10 @@ tr td > h3:first-child {
   padding-top: 0;
 }
 
+.dropdown-menu > li > a {
+  font-size: 18px;
+}
+
 @media (max-width: 992px) {
   .intro-image {
     margin-left: -100px;

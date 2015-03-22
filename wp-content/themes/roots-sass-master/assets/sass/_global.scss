@@ -67,6 +67,18 @@ tr {
     font-size: 18px;
 }
 
+h1 {
+    color: $gray-blue;
+}
+
+.main h2 {
+    color: $salmon;
+    font-weight: bold;
+}
+
+
+
+
 @media (max-width: $screen-lg) {
 
 	.intro-image {

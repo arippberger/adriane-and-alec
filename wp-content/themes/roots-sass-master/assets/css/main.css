@@ -1149,7 +1149,7 @@ body {
   font-family: "quicksandregular";
   font-size: 14px;
   line-height: 1.42857;
-  color: #333333;
+  color: #6A4F33;
   background-color: #fff;
 }
 
@@ -3230,7 +3230,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #b68f67;
 }
 
 @media (min-width: 768px) {
@@ -5097,7 +5097,7 @@ a.badge:hover, a.badge:focus {
 }
 .thumbnail .caption, .wp-caption .caption, .wp-caption-text .caption, .thumbnail .wp-caption-text, .wp-caption .wp-caption-text, .wp-caption-text .wp-caption-text {
   padding: 9px;
-  color: #333333;
+  color: #6A4F33;
 }
 
 a.thumbnail:hover, a.wp-caption:hover, a.wp-caption-text:hover,
@@ -6884,6 +6884,15 @@ tr td > h3:first-child {
 
 .dropdown-menu > li > a {
   font-size: 18px;
+}
+
+h1 {
+  color: #B1BDB6;
+}
+
+.main h2 {
+  color: #E99C74;
+  font-weight: bold;
 }
 
 @media (max-width: 992px) {

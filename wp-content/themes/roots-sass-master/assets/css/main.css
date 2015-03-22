@@ -6898,6 +6898,7 @@ h1 {
 .main h3 {
   font-family: "quicksandregular";
   font-weight: bold;
+  font-size: 20px;
 }
 
 @media (max-width: 992px) {

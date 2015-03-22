@@ -76,7 +76,10 @@ h1 {
     font-weight: bold;
 }
 
-
+.main h3 {
+    font-family: $quicksand;
+    font-weight: bold;
+}
 
 
 @media (max-width: $screen-lg) {

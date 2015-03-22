@@ -37,10 +37,32 @@ $("#owl-demo").owlCarousel({
     navigationText: [
     "<i class='icon-chevron-left icon-white'></i>",
     "<i class='icon-chevron-right icon-white'></i>"
-],
+    ],
     beforeInit : function(elem){
     //Parameter elem pointing to $("#owl-demo")
     random(elem);
 }
 
   });
+
+  $("#owl-demo").owlCarousel({
+    jsonPath : 'json/customData.json',
+    jsonSuccess : customDataSuccess,
+    navigationText: [
+        "<i class='icon-chevron-left icon-white'></i>",
+        "<i class='icon-chevron-right icon-white'></i>"
+        <?php foreach()
+    ],
+  });
+
+  function customDataSuccess(data){
+      var content = "";
+      for(var i in data["items"]){
+
+          var img = data["items"][i].img;
+       var alt = data["items"][i].alt;
+
+       content += "<img src=\"" +img+ "\" alt=\"" +alt+ "\">"
+    }
+    $("#owl-demo").html(content);
+  }

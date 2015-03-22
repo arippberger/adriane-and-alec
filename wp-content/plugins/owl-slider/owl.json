@@ -1,28 +1,82 @@
 {
   "items" : [
     {
-      "img": "assets/owl1.jpg",
-      "alt" : "Owl Image 1"
+      "name"        : "Kevin",
+      "title"       : "Officiant",
+      "img"         : "assets/Kevin.jpg",
+      "desc"        : "Kevin grew up with Alec in Duluth, getting into shenanigans in high school and then bringing the shenanigans to college. It was in college that Kevin became one of Adriane’s good friends and confidants as well. The couple loves Kevin so much that they felt he couldn’t stand up for just one of them, but instead, is joining them in marriage."
     },
     {
-      "img": "assets/owl2.jpg",
-      "alt" : "Owl Image 2"
+      "name"        : "Payton",
+      "title"       : "Flower Girl",
+      "img"         : "assets/Payton.jpg",
+      "desc"        : "Little Miss Payton Grace is Alec’s niece and will be almost 3 years old when she walks down the aisle! Payton is both Alec’s and Adriane’s first niece/nephew and they can’t get enough of her. The three of them enjoy singing to Frozen and dancing to just about anything."
     },
     {
-      "img": "assets/owl3.jpg",
-      "alt" : "Owl Image 1"
+      "name"        : "Lisa",
+      "title"       : "Maid of Honor",
+      "img"         : "assets/Lisa.jpg",
+      "desc"        : "Marten Sister #2 is Adriane’s #1 for the big day! Lisa is Adriane’s little (middle) sister, and the two grew up together playing Barbies, dress up and make believe. Fast forward and the two still share similar interests, and in particular enjoy nerding out together over musicals, movie soundtracks, and spreadsheets."
     },
     {
-      "img": "assets/owl4.jpg",
-      "alt" : "Owl Image 2"
+      "name"        : "Josh",
+      "title"       : "Best Man",
+      "img"         : "assets/Josh.jpg",
+      "desc"        : "Best of friends since the 7th grade, Josh and Alec have been through thick and thin together. Young love, trouble and fun filled their youth and embodied the music of their high school punk rock band. Although in Hollywood, CA pursuing a career in music, Josh remains one of Alec’s closest friends to this day."
     },
     {
-      "img": "assets/owl5.jpg",
-      "alt" : "Owl Image 1"
+      "name"        : "Kelsey",
+      "title"       : "",
+      "img"         : "assets/Kelsey.jpg",
+      "desc"        : "Kelsey is Adriane’s little (youngest) sister and 5.5 years younger than Adriane (something she loves to remind Adriane of). Growing up, Kelsey could oftentimes be found trying to imitate whatever her big sister was up to. Now older, they’ve found a common bond in their sense of humor and beer – and love spending time together enjoying both."
     },
     {
-      "img": "assets/owl6.jpg",
-      "alt" : "Owl Image 2"
-    }
+      "name"        : "Ryan",
+      "title"       : "",
+      "img"         : "assets/Ryan.jpg",
+      "desc"        : "Since the 5th grade, Alec has looked to Ryan for inspiration in activities from football to music. Ryan has always been a fun-filled, easy-going friend to Alec — slow to pass judgement and always willing to listen. The two enjoy spending time together snowboarding and jamming on their acoustic guitars."
+    },
+    {
+      "name"        : "Kelci",
+      "title"       : "",
+      "img"         : "assets/Kelci.jpg",
+      "desc"        : "Kelci and Adriane met freshman year of college at the UMN. Kelci was high school friends with Adriane’s dormmate, making Kelci an honorary roommate and quickly one of Adriane’s best friends for life. Over the last 9 years, Adriane and Kelci have shared countless laughs, tears, secrets and adventures – and Adriane couldn’t imagine this day without her."
+    },
+    {
+      "name"        : "Paul",
+      "title"       : "",
+      "img"         : "assets/Paul.jpg",
+      "desc"        : "Paul and Alec met during freshman year of college when the two were paired together as apartment-mates. They quickly became close friends, sharing mutual interests in politics and Zelda video games. Paul is currently pursuing his J.D. and M.B.A. and is probably one of the smartest and nicest guys Alec has ever met."
+    },
+    {
+      "name"        : "Becca",
+      "title"       : "",
+      "img"         : "assets/Becca.jpg",
+      "desc"        : "Becca is another college friend of Adriane’s. The two moved in together (along with 5 other girls!) their junior year, became friends and never looked back. Adriane loves Becca’s laid back nature, sense of humor and dance moves. Becca now lives in Chicago, and Adriane misses her immensely, but is so thankful she could be a part of the big day!"
+    },
+    {
+      "name"        : "Justin",
+      "title"       : "",
+      "img"         : "assets/Justin.jpg",
+      "desc"        : "Alec may have met his match in fellow nerd and videogame enthusiast, Justin. Also coworkers, the two can be oftentimes be found sneaking away from their desks to battle in Super Smash Bros or Hearthstone. Justin is an avid runner, a hobby that is slowly rubbing off on Alec - the two are planning to run Grandma's Half Marathon this summer!"
+    },
+    {
+      "name"        : "Abby",
+      "title"       : "",
+      "img"         : "assets/Abby.jpg",
+      "desc"        : "Abby is another college friend (and one of the 7 roommates of junior-senior year!). Although she lives aaaaall the way over in San Francisco, distance hasn’t deterred Abby from being one of Adriane’s favorite people on this planet. Adriane’s favorite things about Abby: Her sense of humor and ability to find mischief/fun in all situations."
+    },
+    {
+      "name"        : "Joe",
+      "title"       : "",
+      "img"         : "assets/Joe.jpg",
+      "desc"        : "lorem ipsum sit dalor"
+    },
+    {
+      "name"        : "Caitlin",
+      "title"       : "",
+      "img"         : "assets/Caitlin.jpg",
+      "desc"        : "Caity (now Caitlin, but Adriane will never stop calling her Caity) is one of Adriane’s longest and best friends from home. The two met in first grade, and Caity inspired Adriane’s first (and only) bowl cut. From there, things only improved and the two became BFFL, sharing a love for cats and all things Harry Potter."
+    },
   ]
 }

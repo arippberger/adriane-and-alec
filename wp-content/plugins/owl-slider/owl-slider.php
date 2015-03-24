@@ -82,8 +82,8 @@ function owl_plugin_shortcode() {
                 //margin:30,
                 //stagePadding:30,
                 smartSpeed:450,
-                nav: true,
-                navText: ["&lsaquo;","&rsaquo;"]
+//                nav: true,
+//                navText: ["&lsaquo;","&rsaquo;"]
             });
 
             $('.owl-click-nav a').click(function(){

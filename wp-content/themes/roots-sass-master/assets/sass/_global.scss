@@ -82,6 +82,90 @@ h1 {
     font-size: 20px;
 }
 
+.owl-slide {
+
+    .owl-img {
+        float: left;
+        width: 50%;
+        max-width: 400px;
+        //padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .owl-desc {
+        opacity: 0;
+        float: right;
+        max-width: 50%;
+        transition: opacity 1s 0.5s ease;
+    }
+}
+
+.active {
+
+    .owl-desc {
+        opacity: 1;
+    }
+}
+
+.owl-click-nav {
+    padding-top: 20px;
+
+    a {
+        display: block;
+        float: left;
+        position: relative;
+        margin: 2px;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            z-index: 99;
+            background: rgb(255,255,255);
+            opacity: 0.75;
+            transition: opacity 0.5s;
+        }
+    }
+
+    a.clicked,
+    a:hover {
+
+        &::after {
+            opacity: 0;
+        }
+    }
+
+    img {
+
+    }
+}
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.25) 1px 1px 1px;
+    font-weight: bold;
+    font-size: 60px;
+
+    .owl-prev {
+        float: left;
+    }
+
+    .owl-next {
+        float: right;
+    }
+}
+
 
 @media (max-width: $screen-lg) {
 
@@ -101,10 +185,24 @@ h1 {
 	.wedding-party {
 
 		img {
-			max-width: 77px;
-			width: 77px;
+//			max-width: 77px;
+//			width: 77px;
 		}
-	}	
+	}
+
+    .owl-slide {
+
+        .owl-img {
+            float: none;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .owl-desc {
+            float: none;
+            max-width: 100%;
+        }
+    }
 }
 
 @media (max-width: $screen-sm) {

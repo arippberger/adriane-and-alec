@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e788249-7dae-4f3b-a6fd-f4de89f146a3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/owl-slider/owl.json" afterPath="$PROJECT_DIR$/wp-content/plugins/owl-slider/owl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +65,8 @@
       <file leaf-file-name="owl.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/owl-slider/owl.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59183675" vertical-offset="1269" max-vertical-offset="1710">
-              <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.5507246" vertical-offset="687" max-vertical-offset="1710">
+              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -802,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/owl-slider/owl.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59183675" vertical-offset="1269" max-vertical-offset="1710">
-          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5507246" vertical-offset="687" max-vertical-offset="1710">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
           <folding />
         </state>
       </provider>

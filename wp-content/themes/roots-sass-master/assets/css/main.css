@@ -7096,6 +7096,13 @@ figure.alignnone {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'wanderlust_lettersregular';
+  src: url("../fonts/wanderlust/WanderlustLetters-Regular-webfont.eot");
+  src: url("../fonts/wanderlust/WanderlustLetters-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/wanderlust/WanderlustLetters-Regular-webfont.woff2") format("woff2"), url("../fonts/wanderlust/WanderlustLetters-Regular-webfont.woff") format("woff"), url("../fonts/wanderlust/WanderlustLetters-Regular-webfont.ttf") format("truetype"), url("../fonts/wanderlust/WanderlustLetters-Regular-webfont.svg#wanderlust_lettersregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .main {
   position: relative;
   min-height: 1px;
@@ -7204,6 +7211,7 @@ div.button {
 }
 .page-header h1 {
   text-align: center;
+  font-family: "wanderlust_lettersregular";
 }
 
 .navbar-toggle {
